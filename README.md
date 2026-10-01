@@ -13,6 +13,23 @@ npm run dev
 
 Vite wyświetli lokalny adres aplikacji (zwykle `http://localhost:5173`).
 
+## GitHub Pages
+
+Aplikacja jest przygotowana do publikacji na GitHub Pages przez GitHub Actions.
+
+### Krok po kroku
+
+1. W repozytorium GitHub przejdź do `Settings` → `Pages`.
+2. W sekcji `Build and deployment` wybierz opcję `GitHub Actions`.
+3. Wypchnij zmiany na branch `main`.
+4. GitHub Actions automatycznie zbuduje i opublikuje stronę.
+
+Po wdrożeniu projekt będzie dostępny pod adresem:
+
+```text
+https://kondexor2000.github.io/symulator_pojazdu/
+```
+
 ## Zasady symulacji
 
 - Długość trasy: 10 km.
